@@ -1,6 +1,8 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import TextToSpeech from './Components/TextToSpeech';
+import TextToSpeech from './Tools/TextToSpeech';
+import './index.css';
 
 function App() {
   const text = "Text-to-speech feature";
@@ -9,7 +11,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <TextToSpeech text={text} />
-        <p>
+        <p class="font-bold">
           Hellloooo
         </p>
         <a
