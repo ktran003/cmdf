@@ -1,13 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import TextToSpeech from './Components/TextToSpeech';
 
 function App() {
+  const text = "Text-to-speech feature";
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <TextToSpeech text={text} />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Hellloooo
         </p>
         <a
           className="App-link"
