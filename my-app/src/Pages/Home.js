@@ -1,4 +1,5 @@
 import Navbar from "../components/Navbar";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -25,16 +26,16 @@ function Home() {
 
       <div class="carousel carousel-center max-w-md p-4 space-x-4 rounded-box">
         <div class="carousel-item">
-          <img src="money.svg" class="rounded-box" />
+          <Link to='/learningcorner'> <img src="money.svg" class="rounded-box" /></Link>
         </div>
         <div class="carousel-item">
-          <img src="saving.svg" class="rounded-box" />
+          <Link to='/learningcorner'> <img src="saving.svg" class="rounded-box" /> </Link>
         </div>
         <div class="carousel-item">
-          <img src="budgeting.svg" class="rounded-box" />
+          <Link to='/learningcorner'> <img src="budgeting.svg" class="rounded-box" /></Link>
         </div>
         <div class="carousel-item">
-          <img src="investing.svg" class="rounded-box" />
+          <Link to='/learningcorner'> <img src="investing.svg" class="rounded-box" /></Link>
         </div>
       </div>
       <Navbar />
