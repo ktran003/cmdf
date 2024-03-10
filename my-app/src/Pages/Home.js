@@ -1,4 +1,6 @@
-function Dashboard() {
+import Navbar from "../components/Navbar";
+
+function Home() {
   return (
     <div>
       <h1 class="text-5xl font-bold m-5 pt-6"> Hi Jane, </h1>
@@ -26,8 +28,9 @@ function Dashboard() {
           <img src="investing.svg" class="rounded-box" />
         </div>
       </div>
+      <Navbar />
     </div>
   );
 }
 
-export default Dashboard;
+export default Home;
