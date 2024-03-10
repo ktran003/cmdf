@@ -1,4 +1,5 @@
 import React from 'react';
+import Navbar from '../components/Navbar';
 import { useState } from 'react';
 import { Link } from "react-router-dom";
 import Navbar from '../components/Navbar';
@@ -21,7 +22,7 @@ function Matching() {
                 <div className="grid col-span-3 w-50 h-30 gap-5 mx-auto items-center mb-10">
                     <label className="swap swap-flip text-9xl col-start-1">
                         <input type="checkbox" />
-                    
+
                         <div className="swap-on">
                             <img src="/Question1.svg" />
                         </div>
@@ -32,7 +33,7 @@ function Matching() {
 
                     <label className="swap swap-flip text-9xl col-start-2">
                         <input type="checkbox" />
-                        
+
                         <div className="swap-on">
                             <img src="/whiteCard.png" />
                         </div>
@@ -49,7 +50,7 @@ function Matching() {
                             <img src="/purpleCard.png" />
                         </div>
                     </label>
-                    
+
                 </div>
                 <div className="grid col-span-3 w-50 h-30 gap-5 mx-auto items-center mb-10">
                     <label className="swap swap-flip text-9xl col-start-1">
@@ -154,8 +155,8 @@ function Matching() {
 
                 <button className="btn btn-lg">Start</button>
             </div>
-            <Navbar/>
 
+            <Navbar />
         </div>
     );
 }
