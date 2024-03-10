@@ -5,7 +5,7 @@ function Profile() {
         <div className="container bg-backgroundColour">
             
             <div className="ml-8 pt-10 pb-5">
-                <h className="text-5xl font-bold text-black mb-5">Profile</h>
+                <h className="text-5xl font-bold text-black mb-5 font-MadimiOne">Profile</h>
             </div>
             <div className="flex items-center justify-center mb-5">
                 <img src="ProfileBadge.svg" />

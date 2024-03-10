@@ -13,7 +13,7 @@ function Matching() {
                 </Link>
             </div>
             <div className="mx-auto text-center pt-2">
-                <h className="font-bold text-5xl text-black">Matching</h>
+                <h className="font-bold text-5xl text-black font-MadimiOne">Matching</h>
                 <p className="mt-3 pb-3 text-black font-nunito">Match the word with it's definition</p>
             </div>
 
@@ -154,6 +154,7 @@ function Matching() {
 
                 <button className="btn btn-lg">Start</button>
             </div>
+
             <Navbar />
         </div>
     );

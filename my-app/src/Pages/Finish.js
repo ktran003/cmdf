@@ -4,7 +4,7 @@ function Finish() {
     return (
         <div className="container bg-backgroundColour">
             <div className="mx-auto text-center pt-10">
-                <h className="text-5xl font-bold text-black pb-5">Nice Work!</h>
+                <h className="text-5xl font-bold text-black pb-5 font-MadimiOne">Nice Work!</h>
                 <p className="font-nunito pt-2">You&apos;ve just completed Money 101.</p>
             </div>
             <div className="flex justify-center items-center pt-5">

@@ -7,7 +7,10 @@ module.exports = {
         'buttonColour': "#1D2F6F",
         'rightColour': "#90EE90",
         'backgroundColour': '#DDE1FF',
-      }
+      },
+      fontFamily: {
+        MadimiOne: ['Madimi One', 'sans-serif']
+      },
     },
     fontFamily: {
       nunito: ["Nunito", "sans-serif"]
