@@ -12,7 +12,7 @@ function LearningCorner() {
             </div>
 
             <div className="mx-auto text-center pt-2">
-                <h className="text-5xl mb-5 text-black font-bold">Learning Corner</h>
+                <h className="text-5xl mb-5 text-black font-bold font-MadimiOne">Learning Corner</h>
                 <p className="mt-5 text-black">Choose a game to learn Money 101!</p>
             </div>
 

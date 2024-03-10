@@ -1,5 +1,6 @@
 import {Link} from 'react-router-dom';
 import React from 'react';
+import Navbar from '../components/Navbar';
 
 function Multiplayer() {
     return (
@@ -10,7 +11,7 @@ function Multiplayer() {
                 </Link>
             </div>
             <div className="ml-8 pt-2 pb-5">
-                <h className="text-5xl font-bold text-black mb-5">Multiplayer</h>
+                <h className="text-5xl font-bold text-black mb-5 font-MadimiOne">Multiplayer</h>
                 <p className="mt-2">Play online or with a friend!</p>
             </div>
             <div className="grid grid-cols-4">
@@ -30,6 +31,7 @@ function Multiplayer() {
             <div>
                 <img src="Carousel.svg"/>
             </div>
+            <Navbar/>
         </div>
     );
 }
