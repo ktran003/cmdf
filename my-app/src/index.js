@@ -5,12 +5,17 @@ import App from "./App";
 import Dashboard from "./Pages/Dashboard";
 import reportWebVitals from "./reportWebVitals";
 import Chatbot from "./Pages/Chatbot";
+import Matching from "./Pages/Matching"
+import LearningCorner from "./Pages/LearningCorner";
+import Question1 from "./Pages/Question1";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Dashboard />
-    <Chatbot />
+    {/* <Dashboard /> */}
+    {/* <Chatbot /> */}
+    {/* <LearningCorner /> */}
+    <Question1/>
   </React.StrictMode>
 );
 
