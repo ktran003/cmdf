@@ -4,10 +4,10 @@ import { useState } from 'react';
 function Matching() {
 
     return (
-        <div >
-            <div className="mx-auto text-center my-10">
-                <h className="font-bold text-3xl">Matching</h>
-                <p className="mt-3">Match the word with it's definition</p>
+        <div className="container bg-backgroundColour">
+            <div className="mx-auto text-center pt-10">
+                <h className="font-bold text-5xl text-black">Matching</h>
+                <p className="mt-3 text-black">Match the word with it's definition</p>
             </div>
 
             <div className="grid grid-flow-row">
@@ -16,7 +16,7 @@ function Matching() {
                         <input type="checkbox" />
                     
                         <div className="swap-on">
-                            <img src="/Question1.png" />
+                            <img src="/Question1.svg" />
                         </div>
                         <div className="swap-off">
                             <img src="/purpleCard.png" />
@@ -68,7 +68,7 @@ function Matching() {
                     <label className="swap swap-flip text-9xl col-start-3">
                         <input type="checkbox" />
                         <div className="swap-on">
-                            <img src="/cardAnswer2.png" />
+                            <img src="/Answer1.svg" />
                         </div>
                         <div className="swap-off">
                             <img src="/purpleCard.png" />
@@ -90,7 +90,7 @@ function Matching() {
                     <label className="swap swap-flip text-9xl col-start-2">
                         <input type="checkbox" />
                         <div className="swap-on">
-                            <img src="/Question2.png" />
+                            <img src="/Question2.svg" />
                         </div>
                         <div className="swap-off">
                             <img src="/purpleCard.png" />
@@ -123,7 +123,7 @@ function Matching() {
                     <label className="swap swap-flip text-9xl col-start-2">
                         <input type="checkbox" />
                         <div className="swap-on">
-                            <img src="/Answer2.png" />
+                            <img src="/Answer2.svg" />
                         </div>
                         <div className="swap-off">
                             <img src="/purpleCard.png" />
@@ -143,7 +143,7 @@ function Matching() {
 
                 </div>
             </div>
-            <div className="mx-auto text-center my-10">
+            <div className="mx-auto text-center py-10">
 
                 <button className="btn btn-lg">Start</button>
             </div>

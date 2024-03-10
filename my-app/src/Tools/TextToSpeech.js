@@ -51,9 +51,9 @@ const TextToSpeech = ({ text }) => {
     //   <button className="btn btn-blue" onClick={handleStop}>Stop</button>
     // </div>
     <div>
-    <button className="btn bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onClick={handlePlay}>{isPaused ? "Resume" : "Play"}</button>
-    <button className="btn bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onClick={handlePause}>Pause</button>
-    <button className="btn bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded" onClick={handleStop}>Stop</button>
+    <button className=" text-white font-bold py-2 px-4 rounded" onClick={handlePlay}>{isPaused ? <img src="speaker.svg"/> : <img src="speaker.svg"/>}</button>
+    {/* <button className="btn bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onClick={handlePause}>Pause</button>
+    <button className="btn bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded" onClick={handleStop}>Stop</button> */}
   </div>
   );
 };
