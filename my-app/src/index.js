@@ -24,7 +24,10 @@ import { PassageProvider } from '@passageidentity/passage-react';
 const router = createBrowserRouter([
   { path: "/", element: <App /> },
   { path: "/home", element: <Home /> },
-  { path: "/chatbot", element: <Chatbot /> }
+  { path: "/chatbot", element: <Chatbot /> },
+  { path: "/learningcorner", element: <LearningCorner /> },
+  { path: "/matching", element: <Matching /> },
+  { path: "/quiz", element: <Question1 /> }
 ]);
 
 
