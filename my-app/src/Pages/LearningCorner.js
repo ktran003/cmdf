@@ -6,7 +6,7 @@ function LearningCorner() {
         <div class="bg-[url('learning_corner_bg.svg')]">
             <div className="mx-auto text-center pt-10">
                 <h className="text-5xl mb-5 text-black font-bold">Learning Corner</h>
-                <p className="mt-5 text-black">Choose a game to learn Money 101!</p>
+                <p className="mt-5 text-black font-nunito">Choose a game to learn Money 101!</p>
             </div>
 
             <div className="grid grid-cols-2 justify-center items-center mb-10 pl-8 pt-5">

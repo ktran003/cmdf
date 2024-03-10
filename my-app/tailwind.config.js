@@ -9,6 +9,9 @@ module.exports = {
         'backgroundColour': '#DDE1FF',
       }
     },
+    fontFamily: {
+      nunito: ["Nunito", "sans-serif"]
+    }
   },
   plugins: [require("daisyui")],
 }

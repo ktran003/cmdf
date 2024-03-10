@@ -8,7 +8,7 @@ function Matching() {
         <div className="container bg-backgroundColour">
             <div className="mx-auto text-center pt-10">
                 <h className="font-bold text-5xl text-black">Matching</h>
-                <p className="mt-3 text-black">Match the word with it's definition</p>
+                <p className="mt-3 text-black font-nunito">Match the word with it's definition</p>
             </div>
 
             <div className="grid grid-flow-row">
