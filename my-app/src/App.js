@@ -18,12 +18,11 @@ function App() {
   return (
     <div className="App">
 
-      {/* <Login /> */}
+      <Login />
       {/* <Chatbot/> */}
       {/* <Question1/> */}
-      {/* <Profile/> */}
       {/* <Matching/> */}
-      <Finish/>
+      <Finish />
     </div>
   );
 }

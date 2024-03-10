@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Navbar from "../components/Navbar";
 
 function LearningCorner() {
     return (
@@ -22,8 +23,7 @@ function LearningCorner() {
                 <img src="/Group15.png" className=" justify-self-center" />
                 <img src="/Group16.png" className=" justify-self-center" />
             </div>
-
-
+            <Navbar />
 
         </div>
     );
