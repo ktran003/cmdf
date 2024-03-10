@@ -8,16 +8,16 @@ function Question1() {
         setIsClicked(!isClicked);
     };
     return (
-        <div class="pb-10">
-            <div className="mx-auto text-center my-10">
+        <div class="pb-10 container bg-backgroundColour">
+            <div className="mx-auto text-center pt-10">
                 <h className="text-5xl font-bold">Build Your Knowledge</h>
             </div>
             <div className="flex items-center justify-center">
                 <img src="coins.png" className="justify-self-center" />
-                
+
             </div>
             <div className="flex items-center justify-center">
-            <TextToSpeech text={text} />
+                <TextToSpeech text={text} />
             </div>
             <div className="mx-auto text-center my-10">
                 <p className="text-2xl">What do we call the money you earn from your job or allowance?</p>
