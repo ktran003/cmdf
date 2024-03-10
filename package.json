@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "cohere-ai": "^7.7.7",
     "react-scripts": "^5.0.1"
   }
 }
