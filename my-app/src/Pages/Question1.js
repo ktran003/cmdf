@@ -10,7 +10,7 @@ function Question1() {
 
     const handleClick = () => {
         setIsClicked(!isClicked);
-        navigate("/finish");
+        setTimeout(() => { navigate("/finish") }, 3000);
     };
     return (
         <div class="pb-10 container bg-backgroundColour">
