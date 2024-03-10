@@ -5,10 +5,12 @@ import App from "./App";
 import Dashboard from "./Pages/Dashboard";
 import reportWebVitals from "./reportWebVitals";
 import Chatbot from "./Pages/Chatbot";
+import Login from "./Pages/Login";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
+    <Login />
     <Dashboard />
     <Chatbot />
   </React.StrictMode>
