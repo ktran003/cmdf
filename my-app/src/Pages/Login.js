@@ -1,4 +1,4 @@
-import './Login.css'
+import '../Pages/Styles/Login.css'
 import { useNavigate } from "react-router-dom"
 import "@passageidentity/passage-elements/passage-auth";
 import { PassageAuth } from '@passageidentity/passage-react';

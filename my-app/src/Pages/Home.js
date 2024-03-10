@@ -1,3 +1,5 @@
+import Navbar from "../components/Navbar";
+
 function Home() {
   return (
     <div>
@@ -26,6 +28,7 @@ function Home() {
           <img src="investing.svg" class="rounded-box" />
         </div>
       </div>
+      <Navbar />
     </div>
   );
 }
