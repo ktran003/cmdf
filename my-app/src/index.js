@@ -1,14 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-import Chatbot from './Pages/Chatbot';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import Dashboard from "./Pages/Dashboard";
+import reportWebVitals from "./reportWebVitals";
+import Chatbot from "./Pages/Chatbot";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
+    <Dashboard />
     <Chatbot />
   </React.StrictMode>
 );

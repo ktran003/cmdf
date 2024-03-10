@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import TextToSpeech from './Tools/TextToSpeech';
 import './index.css';
+import '@passageidentity/passage-elements/passage-auth'
 
 function App() {
   const text = "Text-to-speech feature";
