@@ -26,10 +26,6 @@ function App() {
         <p>
           Hello it is me!
         </p>
-        <div>
-          <passage-auth app-id="tVgNjuNEpEwYaNeBqpnSQ17q"></passage-auth>
-          <script src="https://psg.so/web.js"></script>
-        </div>
       </header>
     </div>
   );
