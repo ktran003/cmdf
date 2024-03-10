@@ -5,7 +5,7 @@ function Home() {
   return (
     <div class="bg-[url('home_background.svg')]">
       <div class="pb-10">
-        <h1 class="text-5xl font-bold pl-5 pt-10 text-white"> Hi Jane, </h1>
+        <h1 class="text-5xl font-bold pl-5 pt-10 text-white font-MadimiOne"> Hi Jane, </h1>
         <p class="text-2xl m-5 text-white"> Welcome to Budget Buddies! </p>
         <img class="pl-5 m pb-0 mb-0" src="badge_count.svg" />
         <div class="grid grid-cols-2">
@@ -13,13 +13,13 @@ function Home() {
         </div>
       </div>
       <div class="py-10">
-        <hl class="text-5xl font-bold flex pl-5">
+        <hl class="text-5xl font-bold flex pl-5 font-MadimiOne">
           Your Friends
         </hl>
         <img src="friends_carousel.svg" />
       </div>
 
-      <hl class="text-5xl font-bold flex pl-5">
+      <hl class="text-5xl font-bold flex pl-5 font-MadimiOne">
         Learning Corner
       </hl>
       <p class="text-2xl mt-2 m-5"> Achieve your financial goals! </p>

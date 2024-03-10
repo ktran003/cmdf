@@ -18,7 +18,7 @@ function Question1() {
                 </Link>
             </div>
             <div className="mx-auto text-center pt-2 pb-4">
-                <h className="text-5xl font-bold text-black">Build Your Knowledge</h>
+                <h className="text-5xl font-bold text-black font-MadimiOne">Build Your Knowledge</h>
             </div>
             <div className="flex items-center justify-center">
                 <img src="coins.png" className="justify-self-center" />
