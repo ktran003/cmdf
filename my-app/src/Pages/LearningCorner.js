@@ -30,8 +30,7 @@ function LearningCorner() {
             <Link to='/multiplayer'> <img src="/Group15.png" className=" pl-5 justify-self-center" /></Link>
                 <img src="/Group16.png" className=" justify-self-center" />
             </div>
-
-
+            <Navbar />
 
             <Navbar />
         </div>
