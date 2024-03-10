@@ -1,4 +1,4 @@
-function Dashboard() {
+function Home() {
   return (
     <div>
       <h1 class="text-5xl font-bold m-5 pt-6"> Hi Jane, </h1>
@@ -30,4 +30,4 @@ function Dashboard() {
   );
 }
 
-export default Dashboard;
+export default Home;
