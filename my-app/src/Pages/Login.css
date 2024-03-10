@@ -1,0 +1,19 @@
+:root {
+    --passage-container-background-color: #DDE1FF;
+}
+
+passage-auth {
+    --passage-header-font-family: 'Madimi One', sans-serif;
+    --passage-header-font-weight: 800;
+    --passage-header-font-size: 30px;
+    --passage-header-font-style: normal;
+
+    --passage-body-font-family: 'Madimi One', sans-serif;
+    --passage-body-font-weight: 400;
+
+    --passage-input-box-border-radius: 15px;
+
+    --passage-primary-button-border-radius: 15px;
+    --passage-primary-button-background-color: #4E5B92;
+    --passage-primary-button-text-color: #fff;
+}
