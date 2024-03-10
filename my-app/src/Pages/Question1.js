@@ -1,13 +1,16 @@
 import { React, useState } from 'react';
 import TextToSpeech from '../Tools/TextToSpeech';
 import Navbar from '../components/Navbar';
+import { useNavigate } from "react-router-dom";
 
 function Question1() {
     const [isClicked, setIsClicked] = useState(false);
     const text = "What do we call the money you earn from your job or allowance? Income. Expenses. Credit.";
+    const navigate = useNavigate();
 
     const handleClick = () => {
         setIsClicked(!isClicked);
+        navigate("/finish");
     };
     return (
         <div class="pb-10 container bg-backgroundColour">
