@@ -1,7 +1,11 @@
 {
   "dependencies": {
+
+    "cohere-ai": "^7.7.7",
+
     "@passageidentity/passage-elements": "^1.21.0",
     "@passageidentity/passage-node": "^2.9.0",
+
     "react-scripts": "^5.0.1"
   }
 }
