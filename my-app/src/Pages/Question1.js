@@ -1,15 +1,17 @@
 import { React, useState } from 'react';
 import TextToSpeech from '../Tools/TextToSpeech';
+import Navbar from '../components/Navbar';
+
 function Question1() {
     const [isClicked, setIsClicked] = useState(false);
-    const text = "What do we call the money you earn from your job or allowance? Income. Dog. Banana";
+    const text = "What do we call the money you earn from your job or allowance? Income. Expenses. Credit.";
 
     const handleClick = () => {
         setIsClicked(!isClicked);
     };
     return (
         <div class="pb-10 container bg-backgroundColour">
-            <div className="mx-auto text-center pt-10">
+            <div className="mx-auto text-center pt-10 pb-5">
                 <h className="text-5xl font-bold">Build Your Knowledge</h>
             </div>
             <div className="flex items-center justify-center">
@@ -31,15 +33,16 @@ function Question1() {
                 </div>
                 <div className="card w-96 bg-buttonColour">
                     <div className="card-body">
-                        <h2 className="card-title text-center flex justify-center items-center">Dog</h2>
+                        <h2 className="card-title text-center flex justify-center items-center">Expenses</h2>
                     </div>
                 </div>
                 <div className="card w-96 bg-buttonColour">
                     <div className="card-body">
-                        <h2 className="card-title text-center flex justify-center items-center">Banana</h2>
+                        <h2 className="card-title text-center flex justify-center items-center">Credit</h2>
                     </div>
                 </div>
             </div>
+            <Navbar />
         </div>
     );
 }
