@@ -2,20 +2,19 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import { useState } from 'react';
 import { Link } from "react-router-dom";
-import Navbar from '../components/Navbar';
 
 function Matching() {
 
     return (
         <div className="container bg-backgroundColour">
             <div className="pt-10 pl-5">
-            <Link to="/learningcorner">
-                <img src="arrow.svg"/>
+                <Link to="/learningcorner">
+                    <img src="arrow.svg" />
                 </Link>
             </div>
             <div className="mx-auto text-center pt-2">
                 <h className="font-bold text-5xl text-black font-MadimiOne">Matching</h>
-                <p className="mt-3 pb-3 text-black">Match the word with it's definition</p>
+                <p className="mt-3 pb-3 text-black font-nunito">Match the word with it's definition</p>
             </div>
 
             <div className="grid grid-flow-row">

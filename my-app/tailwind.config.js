@@ -12,6 +12,9 @@ module.exports = {
         MadimiOne: ['Madimi One', 'sans-serif']
       },
     },
+    fontFamily: {
+      nunito: ["Nunito", "sans-serif"]
+    }
   },
   plugins: [require("daisyui")],
 }

@@ -31,8 +31,8 @@ const router = createBrowserRouter([
   { path: "/learningcorner", element: <LearningCorner /> },
   { path: "/matching", element: <Matching /> },
   { path: "/quiz", element: <Question1 /> },
-  { path: "/profile", element: <Profile/>},
-  { path: "/multiplayer", element: <Multiplayer/>},
+  { path: "/profile", element: <Profile /> },
+  { path: "/multiplayer", element: <Multiplayer /> },
   { path: "/profile", element: <Profile /> },
   { path: "/finish", element: <Finish /> }
 ]);
