@@ -10,6 +10,7 @@ import Chatbot from './Pages/Chatbot';
 import Question1 from './Pages/Question1';
 import Profile from './Pages/Profile';
 import Matching from './Pages/Matching';
+import Finish from './Pages/Finish';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       {/* <Chatbot/> */}
       {/* <Question1/> */}
       {/* <Matching/> */}
+      <Finish />
     </div>
   );
 }
