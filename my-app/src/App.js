@@ -11,6 +11,8 @@ import Question1 from './Pages/Question1';
 import Profile from './Pages/Profile';
 import Matching from './Pages/Matching';
 import Finish from './Pages/Finish';
+import Home from './Pages/Home';
+import Multiplayer from './Pages/Multiplayer';
 
 
 function App() {
@@ -22,7 +24,10 @@ function App() {
       {/* <Chatbot/> */}
       {/* <Question1/> */}
       {/* <Matching/> */}
+//       <Multiplayer/>
+      {/* <Home /> */}
       <Finish />
+
     </div>
   );
 }

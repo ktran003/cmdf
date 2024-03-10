@@ -13,13 +13,6 @@ const Navbar = () => {
     )
 }
 
-// const Navbar = () => {
-//     return (
-//         <div class="bg-white py-10">
-//             <Link to='/home'> Home</Link>
-//             <Link to='/chatbot'> Chatbot</Link>
-//         </div>
-//     )
-// }
+
 
 export default Navbar

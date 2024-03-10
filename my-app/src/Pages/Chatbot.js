@@ -24,7 +24,8 @@ const Chatbot = () => {
     const getChatResponse = async () => {
       const chatStream = await cohere.chatStream({
         max_tokens: 50,
-        temperature: 1.0,
+        preamble: "You are an expert in financial literacy taht gives concise answers",
+        temperature: 0.3,
         chatHistory: chatHistory,
         message: input,
         connectors: [{ id: "web-search" }]
@@ -79,29 +80,6 @@ const Chatbot = () => {
   );
 
 
-  //   return (
-  //             <div className="flex flex-col h-screen">
-  //           <header className="bg-gray-800 p-4 text-white text-center">My Chat UI</header>
-  //           <div className="flex-1 overflow-y-scroll bg-gray-100 p-4">
-  //             {messages.map((message, index) => (
-  //               <div key={index} className={`message ${message.sender === 'user' ? 'bg-blue-500 text-white self-end' : 'bg-gray-300 text-black self-start'} p-2 rounded-md m-1 max-w-sm`}>
-  //                 {message.text}
-  //               </div>
-  //             ))}
-  //             <div ref={bottomOfChat}></div>
-  //           </div>
-  //           <form onSubmit={sendMessage} className="bg-white p-4 flex">
-  //             <input
-  //               type="text"
-  //               value={input}
-  //               onChange={(e) => setInput(e.target.value)}
-  //               placeholder="Type a message..."
-  //               className="flex-grow p-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500"
-  //             />
-  //             <button type="submit" className="ml-4 px-4 py-2 bg-blue-500 text-white rounded-md">Send</button>
-  //           </form>
-  //         </div>
-  //   );
 };
 
 const ChatHistory = ({ history }) => {
@@ -120,18 +98,3 @@ const ChatHistory = ({ history }) => {
 export default Chatbot;
 
 
-
-// <div className="chatbot">
-//   <ChatHistory history={chatHistory} />
-//   {/* Additional components for input field, send button, etc. */}
-//   <form onSubmit={sendMessage} className="bg-white p-4 flex">
-//     <input
-//       type="text"
-//       value={input}
-//       onChange={(e) => setInput(e.target.value)}
-//       placeholder="Type a message..."
-//       className="flex-grow p-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500"
-//     />
-//     <button type="submit" className="ml-4 px-4 py-2 bg-blue-500 text-white rounded-md">Send</button>
-//   </form>
-// </div>
