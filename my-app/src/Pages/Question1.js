@@ -1,5 +1,8 @@
 import { React, useState } from 'react';
+import { Link } from 'react-router-dom';
 import TextToSpeech from '../Tools/TextToSpeech';
+import Navbar from '../components/Navbar';
+
 function Question1() {
     const [isClicked, setIsClicked] = useState(false);
     const text = "What do we call the money you earn from your job or allowance? Income. Dog. Banana";
@@ -9,8 +12,13 @@ function Question1() {
     };
     return (
         <div class="pb-10 container bg-backgroundColour">
-            <div className="mx-auto text-center pt-10">
-                <h className="text-5xl font-bold">Build Your Knowledge</h>
+            <div className="pt-10 pl-5">
+            <Link to="/learningcorner">
+                <img src="arrow.svg"/>
+                </Link>
+            </div>
+            <div className="mx-auto text-center pt-2 pb-4">
+                <h className="text-5xl font-bold text-black">Build Your Knowledge</h>
             </div>
             <div className="flex items-center justify-center">
                 <img src="coins.png" className="justify-self-center" />
@@ -19,7 +27,7 @@ function Question1() {
             <div className="flex items-center justify-center">
                 <TextToSpeech text={text} />
             </div>
-            <div className="mx-auto text-center my-10">
+            <div className="mx-auto text-center pb-10 pt-5">
                 <p className="text-2xl">What do we call the money you earn from your job or allowance?</p>
             </div>
 
@@ -40,6 +48,7 @@ function Question1() {
                     </div>
                 </div>
             </div>
+            <Navbar/>
         </div>
     );
 }

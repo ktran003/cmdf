@@ -1,9 +1,17 @@
 import { Link } from "react-router-dom";
+import Navbar from "../components/Navbar";
 
 function LearningCorner() {
     return (
         <div class="bg-[url('learning_corner_bg.svg')]">
-            <div className="mx-auto text-center pt-10">
+            
+            <div className="pt-10 pl-5">
+            <Link to="/home">
+                <img src="arrow.svg"/>
+                </Link>
+            </div>
+
+            <div className="mx-auto text-center pt-2">
                 <h className="text-5xl mb-5 text-black font-bold">Learning Corner</h>
                 <p className="mt-5 text-black">Choose a game to learn Money 101!</p>
             </div>
@@ -19,13 +27,15 @@ function LearningCorner() {
             </div>
 
             <div className="grid grid-cols-2 mx-auto items-center pb-10">
-                <img src="/Group15.png" className=" justify-self-center" />
+            <Link to='/multiplayer'> <img src="/Group15.png" className=" pl-5 justify-self-center" /></Link>
                 <img src="/Group16.png" className=" justify-self-center" />
             </div>
 
 
 
+            <Navbar />
         </div>
+        
     );
 }
 
